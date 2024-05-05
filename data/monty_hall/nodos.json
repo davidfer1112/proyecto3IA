@@ -1,0 +1,5 @@
+{
+    "C": ["data/monty_hall/contestant.csv", [], ["H"]], 
+    "H": ["data/monty_hall/host.csv", ["C", "P"], []],
+    "P": ["data/monty_hall/prize.csv", [], ["H"]]
+}
