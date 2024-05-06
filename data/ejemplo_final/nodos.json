@@ -1,0 +1,8 @@
+{
+    "D": ["data/ejemplo_final/difficulty.csv", [], ["G"], ["easy: 0", "hard: 1"]], 
+    "I": ["data/ejemplo_final/intelligence.csv", [], ["G", "S"], ["low: 0", "high: 1"]],
+    "E": ["data/ejemplo_final/ebrioxd.csv", [], ["G"], ["no: 0", "yes: 1"]],
+    "G": ["data/ejemplo_final/grade.csv", ["I", "D", "E"], ["L"], ["A: 0", "B: 1", "C: 3"] ],
+    "S": ["data/ejemplo_final/SAT.csv", ["I"], [], ["bad: 0", "good: 1"]],
+    "L": ["data/ejemplo_final/letter.csv", ["G"], [], ["bad: 0", "good: 1"]]
+}

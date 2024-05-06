@@ -1,6 +1,6 @@
 {
-    "R": ["data/ejemplo_clase/rain.csv", [], ["M","T"]], 
-    "M": ["data/ejemplo_clase/maintenance.csv", ["R"], ["T"]],
-    "T": ["data/ejemplo_clase/train.csv", ["R", "M"], ["A"]],
-    "A": ["data/ejemplo_clase/appointment.csv", ["T"], []]
+    "R": ["data/ejemplo_clase/rain.csv", [], ["M","T"], ["none: 0","light: 1","heavy: 2"] ], 
+    "M": ["data/ejemplo_clase/maintenance.csv", ["R"], ["T"], ["yes: 0","no: 1"] ], 
+    "T": ["data/ejemplo_clase/train.csv", ["R", "M"], ["A"], ["on time: 0","delayed: 1"] ],
+    "A": ["data/ejemplo_clase/appointment.csv", ["T"], [], ["attend: 0","miss: 1"] ]
 }
